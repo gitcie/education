@@ -1,0 +1,5 @@
+rootProject.name = 'education'
+
+include ':edu-word'
+
+
