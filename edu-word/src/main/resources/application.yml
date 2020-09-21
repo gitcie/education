@@ -2,3 +2,10 @@ server:
   port: 8093
   servlet:
     context-path: /word
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.3.18:3006/english_words?useUnicode=true&characterEncoding=UTF8&autoReconnect=true
+    username: root
+    password: root
